@@ -51,8 +51,8 @@ export function CycleDashboard({ cycles, onDelete }: CycleDashboardProps) {
           No cycles logged yet
         </h3>
         <p className="text-sm text-gray-500 leading-relaxed max-w-xs mx-auto">
-          Log your first iteration cycle above to see your metrics, phase
-          breakdowns, and trends here.
+          Log your first iteration cycle above — you'll see your total cycle
+          time before you finish reading this sentence.
         </p>
       </div>
     )

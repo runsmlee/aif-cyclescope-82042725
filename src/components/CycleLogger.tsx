@@ -57,11 +57,10 @@ export function CycleLogger({ onLog }: CycleLoggerProps) {
       className="bg-white rounded-xl border border-gray-200/80 p-6 sm:p-7 space-y-5 shadow-[0_1px_3px_0_rgb(0_0_0/0.04),0_1px_2px_-1px_rgb(0_0_0/0.04)] animate-slide-up"
       aria-label="Cycle logger form"
     >
-      <div className="flex items-center gap-2">
-        <h2 className="text-base font-semibold text-gray-900">Log a Cycle</h2>
-        <span className="text-xs text-gray-400 font-normal">
-          Track an iteration end-to-end
-        </span>
+      <div>
+        <h2 className="text-base font-semibold text-gray-900">
+          Log a cycle — see your number in seconds
+        </h2>
       </div>
 
       <div>

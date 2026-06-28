@@ -40,13 +40,13 @@ export default function App() {
         aria-hidden="true"
       />
 
-      <div className="relative max-w-3xl mx-auto px-4 sm:px-6 py-8 sm:py-14">
-        {/* Header */}
-        <header className="mb-10 animate-slide-up">
-          <div className="flex items-center gap-3 mb-4">
-            <div className="flex items-center justify-center w-10 h-10 rounded-xl bg-primary shadow-sm shadow-primary/30">
+      <div className="relative max-w-3xl mx-auto px-4 sm:px-6 py-6 sm:py-10">
+        {/* Hero copy — one job: create tension */}
+        <header className="mb-6 animate-slide-up">
+          <div className="flex items-center gap-2 mb-4">
+            <div className="flex items-center justify-center w-8 h-8 rounded-lg bg-primary shadow-sm shadow-primary/30">
               <svg
-                className="w-5 h-5 text-white"
+                className="w-4 h-4 text-white"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -60,12 +60,17 @@ export default function App() {
                 />
               </svg>
             </div>
-            <h1 className="text-2xl sm:text-3xl font-bold text-gray-900 tracking-tight">
+            <span className="text-sm font-semibold text-gray-900 tracking-tight">
               CycleScope
-            </h1>
+            </span>
           </div>
-          <p className="text-base sm:text-lg text-gray-600 leading-relaxed max-w-2xl">
-            See your iteration cycle time before your runway sees zero.
+          <h1 className="text-2xl sm:text-4xl font-bold text-gray-900 tracking-tight leading-tight">
+            How fast are you actually iterating?
+          </h1>
+          <p className="text-sm sm:text-base text-gray-600 leading-relaxed mt-2.5 max-w-xl">
+            Not deploy frequency. Not PR cycle time. The full loop from
+            hypothesis to validated learning — the number that determines
+            whether you find PMF before your runway hits zero.
           </p>
         </header>
 
@@ -76,9 +81,9 @@ export default function App() {
         </main>
 
         {/* Footer */}
-        <footer className="mt-14 pt-6 border-t border-gray-200">
+        <footer className="mt-10 pt-5 border-t border-gray-200">
           <p className="text-xs text-gray-500 text-center leading-relaxed">
-            Track hypothesis-to-learning cycles. Data persists locally in your browser.
+            Your data stays in your browser. No account, no sync.
           </p>
         </footer>
       </div>
